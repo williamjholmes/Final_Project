@@ -87,6 +87,7 @@ function buildPlayerYearlyEarnings(playerName) {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: false,
             plugins: {
                 title: {
                     display: true,
