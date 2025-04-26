@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 50 Earnings</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+    <link rel="stylesheet" href="earnings.css">
+</head>
+<body>
+    <h2>Top 50 PGA Tour Earnings - 2001-2004</h2>
+    <div id="selectors">
+        <label for="playerSelect">Select A Player:</label>
+        <select id="playerSelect" name="playerSelect">
+            <!-- options loaded in js playerSelection() -->
+        </select>
+    </div>
+    
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+    
+    <script src="earnings.js"></script>
+</body>
+</html>
