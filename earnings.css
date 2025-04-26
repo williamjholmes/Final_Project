@@ -33,7 +33,9 @@ h2{
     align-items: center;
     flex: 1; 
     padding: 20px;
+    padding-top: 0;
     box-sizing: border-box;
+    max-height: 600px;
 }
 
 #myChart {
@@ -63,6 +65,7 @@ label{
     margin: 2px;
     margin-bottom: 20px;
     transition: all 0.3s ease;
+    text-align: center;
 
 }
 
