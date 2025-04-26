@@ -1,0 +1,5 @@
+I will be doing an individual project.
+I plan to create data visualizations using Chart.js after researching.  I thought it would also be interesting to use public data, which seems to be most commonly done with Chart.js by using Cube API.  I haven't decided exactly what this data will be however. 
+
+Chart.js: https://awesome.cube.dev/tools/chartjs
+Cube API: https://cube.dev/?ref=eco-chartjs
