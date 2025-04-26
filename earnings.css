@@ -1,32 +1,51 @@
-body{
+body {
     margin: 0;
     display: flex;
     flex-direction: column;
     background-color: #121212;
     color: white;
     font-family: 'Arial';
+    min-height: 100vh;
 }
 
-#myChart{
+h2{
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #f1373d;
+}
+
+#selectors {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+#container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#myChart {
     width: 100%;
     height: 100%;
+    max-width: 1000px; 
+    max-height: 600px; 
     background-color: #2c2c2c;
     border-radius: 10px;
     border: 2px solid #003C80;
-    max-width: 1200px;
 }
 
-#container{
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80vh;
-    padding: 20px;
-    padding-top: 0;
-    box-sizing: border-box;
-}
 
 label{
     color: white;
@@ -53,24 +72,5 @@ label{
     color: #f1373d;
 }
 
-#selectors{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    width: 100%;
-    padding: 20px;
-    gap: 20px;
-    box-sizing: border-box;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-h2{
-    margin: 0;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 30px;
-    color: #f1373d;
-}
 
 
